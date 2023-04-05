@@ -1,36 +1,6 @@
-# Bootstrap Vertical Carousel
-
-**Version 1.0.0**
-
-Customizing bootstrap 3 Carousel with small bunch of css to make Vertical Carousel
-
-## Getting Started
-Include [tooltip.css](https://github.com/vineethtrv/Bootstrap-vertical-carousel/blob/master/vertical-carousel.css) on your project.
-
-- [Plugin Demo](https://vineethtrv.github.io/Bootstrap-vertical-carousel/)
-- [codepen](https://codepen.io/vineethtr/pen/rVjWMx)
-
-
-![alt text](https://raw.githubusercontent.com/vineethtrv/Bootstrap-vertical-carousel/master/dea19824-dab6-46bb-8b23-a8ceee63c111.gif)
-
-## Contributor
-
-- Vineeth TR <vineethtrv@gmail.com>
-
----
-
-Add class " vertical " with carousel html 
-
-```
-<div class="vertical carousel slide" data-ride="carousel">
-   ...
-</div>
-
-```
-
-And you can use this css to customize carousel
-
-```
+/*
+* Bootstrap-vertical-carousel
+*/    
 .vertical.carousel .carousel-control {
     bottom: auto;
     width: 100%;
@@ -101,5 +71,3 @@ And you can use this css to customize carousel
   top: -100%;
   left: 0;
 }
-
-```
