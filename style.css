@@ -17,8 +17,8 @@ body{
 
 .img-slider{
   position: relative;
-  width: 800px;
-  height: 500px;
+  width: 1200px;
+  height: 578px;
   margin: 10px;
   /* background: #1D212B; */
   border-radius: 0px 100px 0px 100px;
@@ -82,19 +82,16 @@ body{
     font-weight: 500;
 } 
 
-/* .img-slider .navigation .btn{
+.img-slider .navigation .btn{
+  color: #fff;
   width: 41px;
   display: contents;
   height: 12px;
   margin: 10px;
   cursor: pointer;
   font-weight: 100px;
-} */
-
-.btn {
-  position: absolute;
-  width: 15.6rem;
 }
+
 .central-featured {
   position: relative;
   height: 325px;
@@ -106,10 +103,67 @@ body{
   text-align: center;
   vertical-align: middle;
 }
+.central-featured-lang {
+  position: absolute;
+  width: 15.6rem;
+}
+
+.lang1 {
+  top: 0;
+  right: 95%;
+  z-index: 1;
+}
+.lang2 {
+  top: 15%;
+  right: 108%;
+  z-index: 1
+}
+.lang3 {
+  top: 38%;
+    right: 117%;
+    z-index: 1;
+}
+.lang4 {
+  top: 60%;
+  right: 107%;
+  z-index: 1;
+}
+.lang5 {
+  top: 80%;
+  right: 100%;
+  z-index: 1;
+}
+
 .img-slider .navigation .btn.active{
-  color: #c9bfd5;
+  color: #FDBD0A;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
+
+.btn .btn1:active:before{
+   content: url(logistics-icon-active.png);
+}
+.btn1::before{
+  content: url(logistics-icon.png);
+}
+.btn2::before{
+  content: url(social-media-icon.png);
+}
+
+.btn3::before{
+  content: url(technology-icon.png);
+}
+
+.btn4::before{
+  content: url(cryptocurrency-icon.png);
+}
+
+.btn5::before{
+  content: url(health-icon.png);
+}
+
+
+
+
 
 @media (max-width: 820px){
   .img-slider{
@@ -196,68 +250,3 @@ body{
   }
 }
 
-/* .lang1{
-  top: 0;
-    right: 60%;
-} */
-
-
-.G1 {
-  transform: translate(20px, 85px) rotate(-30deg);
-}
-
-.e1 {
-  transform: translate(13px, 60px) rotate(-25deg);
-}
-
-.e2 {
-  transform: translate(6px, 40px) rotate(-20deg);
-}
-
-.k1 {
-  transform: translate(3px, 23px) rotate(-15deg);
-}
-
-.s1 {
-  transform: translate(2px, 14px) rotate(-10deg);
-}
-
-.f {
-  transform: translate(1px, 8px) rotate(-5deg);
-}
-
-.o {
-  transform: translate(0px, 5px) rotate(0deg);
-}
-
-.r {
-  transform: translate(-1px, 8px) rotate(5deg);
-}
-
-.G2 {
-  transform: translate(-2px, 14px) rotate(10deg);
-}
-
-.e3 {
-  transform: translate(-3px, 25px) rotate(15deg);
-}
-
-.e4 {
-  transform: translate(-6px, 40px) rotate(20deg);
-}
-
-.k2 {
-  transform: translate(-14px, 60px) rotate(25deg);
-}
-
-.s2 {
-  transform: translate(-20px, 80px) rotate(30deg);
-}
-
-/* An inline-block element is placed as an inline
-element (on the same line as adjacent content), 
-but it behaves like a block element  */
-
-span {
-  display: inline-block;
-}
