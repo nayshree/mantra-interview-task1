@@ -12,7 +12,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1D212B;
+  /* background: #1D212B; */
 }
 
 .img-slider{
@@ -20,8 +20,8 @@ body{
   width: 800px;
   height: 500px;
   margin: 10px;
-  background: #1D212B;
-  border-radius: 400px 0px 0px 100px;
+  /* background: #1D212B; */
+  border-radius: 0px 100px 0px 100px;
   overflow: hidden;
 }
 
@@ -46,8 +46,10 @@ body{
 
 .img-slider .slide .info{
   position: absolute;
-  top: 0;
-  padding: 15px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 15px 30px; */
 }
 
 .img-slider .slide .info h2{
@@ -56,37 +58,56 @@ body{
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .img-slider .slide .info p{
   color: #fff;
   background: rgba(0, 0, 0, 0.1);
   font-size: 16px;
-  width: 60%;
+  /* width: 60%; */
   padding: 10px;
   border-radius: 4px;
 }
 
 .img-slider .navigation{
-  z-index: 2;
-  position: absolute;
-  display: flex;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
+    z-index: 2;
+    position: relative;
+    display: flex;
+    left: 51%;
+    transform: translateX(-46%);
+    top: 11%;
+    font-size: 20px;
+    word-spacing: 2px;
+    font-weight: 500;
 } 
 
-.img-slider .navigation .btn{
+/* .img-slider .navigation .btn{
   width: 41px;
   display: contents;
   height: 12px;
   margin: 10px;
   cursor: pointer;
   font-weight: 100px;
-}
+} */
 
+.btn {
+  position: absolute;
+  width: 15.6rem;
+}
+.central-featured {
+  position: relative;
+  height: 325px;
+  height: 32.5rem;
+  width: 546px;
+  width: 54.6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
 .img-slider .navigation .btn.active{
-  color: #2696E9;
+  color: #c9bfd5;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -173,4 +194,70 @@ body{
   .img-slider .navigation{
     bottom: 10px;
   }
+}
+
+/* .lang1{
+  top: 0;
+    right: 60%;
+} */
+
+
+.G1 {
+  transform: translate(20px, 85px) rotate(-30deg);
+}
+
+.e1 {
+  transform: translate(13px, 60px) rotate(-25deg);
+}
+
+.e2 {
+  transform: translate(6px, 40px) rotate(-20deg);
+}
+
+.k1 {
+  transform: translate(3px, 23px) rotate(-15deg);
+}
+
+.s1 {
+  transform: translate(2px, 14px) rotate(-10deg);
+}
+
+.f {
+  transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.o {
+  transform: translate(0px, 5px) rotate(0deg);
+}
+
+.r {
+  transform: translate(-1px, 8px) rotate(5deg);
+}
+
+.G2 {
+  transform: translate(-2px, 14px) rotate(10deg);
+}
+
+.e3 {
+  transform: translate(-3px, 25px) rotate(15deg);
+}
+
+.e4 {
+  transform: translate(-6px, 40px) rotate(20deg);
+}
+
+.k2 {
+  transform: translate(-14px, 60px) rotate(25deg);
+}
+
+.s2 {
+  transform: translate(-20px, 80px) rotate(30deg);
+}
+
+/* An inline-block element is placed as an inline
+element (on the same line as adjacent content), 
+but it behaves like a block element  */
+
+span {
+  display: inline-block;
 }
