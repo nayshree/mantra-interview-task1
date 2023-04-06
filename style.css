@@ -139,32 +139,6 @@ body{
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-.btn .btn1:active:before{
-   content: url(logistics-icon-active.png);
-}
-.btn1::before{
-  content: url(logistics-icon.png);
-}
-.btn2::before{
-  content: url(social-media-icon.png);
-}
-
-.btn3::before{
-  content: url(technology-icon.png);
-}
-
-.btn4::before{
-  content: url(cryptocurrency-icon.png);
-}
-
-.btn5::before{
-  content: url(health-icon.png);
-}
-
-
-
-
-
 @media (max-width: 820px){
   .img-slider{
     width: 600px;
