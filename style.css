@@ -46,9 +46,11 @@ body{
   position: absolute;
   top: 37%;
   left: 54%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.1);
-  padding: 15px 30px;
+  transform: translate(-30%, -50%);
+  background: rgb(0 0 0 / 48%);
+  padding: 50px 20px 50px 20px;
+  border-radius: 0px 100px 0px 100px;
+  width: 550px;
 }
 
 .img-slider .slide .info h2{
